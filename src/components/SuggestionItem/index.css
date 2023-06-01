@@ -1,0 +1,31 @@
+.suggestionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style: none;
+}
+.suggestionText {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}
+.arrowBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow {
+  height: 24px;
+  width: 24px;
+}
+@media screen and (min-width: 768px) {
+  .suggestionText {
+    font-size: 20px;
+  }
+  .arrow {
+    height: 24px;
+    width: 24px;
+  }
+}
